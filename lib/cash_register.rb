@@ -14,7 +14,8 @@ attr_accessor :total, :discount, :items
         end
     end
 
-    def apply_discount
+    def apply_discount(discount)
+        # need to learn about .to_f
     end
 
     def void_last_transaction
